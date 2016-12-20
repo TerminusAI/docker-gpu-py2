@@ -4,7 +4,7 @@ MAINTAINER Luis Mesas <luis.mesas@intelygenz.com>
 
 # Python 2
 RUN apt-get update && apt-get install -y \
-    python-dev \
+        python-dev \
     && \
 	apt-get clean && \
 	apt-get autoremove && \
